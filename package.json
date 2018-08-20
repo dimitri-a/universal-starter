@@ -26,7 +26,7 @@
     "compile:server": "tsc -p server.tsconfig.json",
     "generate:prerender": "cd dist && node prerender",
     "serve:prerender": "cd dist/browser && http-server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "nodemon --inspect dist/server"
   },
   "pre-commit": [],
   "private": true,
